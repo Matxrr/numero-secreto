@@ -1,11 +1,11 @@
-let numeroSecreto = geraNumeroAleatorio(10);
+let numeroSecreto = geraNumeroAleatorio(100);
 let tentativas  = 1;
 let novoJogoButton = document.getElementById("reiniciar");
 mensagemInicial();
 
 function mensagemInicial () {
     manipula ("h1", "Advinha número 3000");
-    manipula (".texto__paragrafo", "Digite um número de 1 a 10");
+    manipula (".texto__paragrafo", "Digite um número de 1 a 100");
   }
   
 function verificarChute (){
